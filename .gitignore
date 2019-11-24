@@ -62,3 +62,6 @@ typings/
 
 # Intellij
 .idea
+
+# dist
+dist/*
