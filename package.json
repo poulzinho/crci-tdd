@@ -1,0 +1,22 @@
+{
+  "name": "crci-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poulzinho/crci-tdd.git"
+  },
+  "keywords": [
+    "tdd"
+  ],
+  "author": "poulzinho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poulzinho/crci-tdd/issues"
+  },
+  "homepage": "https://github.com/poulzinho/crci-tdd#readme"
+}
