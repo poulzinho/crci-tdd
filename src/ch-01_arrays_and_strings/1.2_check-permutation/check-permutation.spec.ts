@@ -15,4 +15,8 @@ describe('a check permutation function', () => {
         expect(checkPermutation('aba', 'aaba')).toBeFalsy();
         expect(checkPermutation('aba', 'aa')).toBeFalsy();
     });
+
+    it('should return true for "aba" and "baa"', () => {
+        expect(checkPermutation('aba', 'baa')).toBeTruthy();
+    })
 });
