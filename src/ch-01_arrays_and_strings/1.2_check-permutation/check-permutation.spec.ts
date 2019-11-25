@@ -10,4 +10,8 @@ describe('a check permutation function', () => {
     it('should return true for "aba" and "aab"', () => {
         expect(checkPermutation('aba', 'aab')).toBeTruthy();
     });
+
+    it('should return false if the strings have different lengths', () => {
+        expect(checkPermutation('aba', 'aaba')).toBeFalsy();
+    });
 });

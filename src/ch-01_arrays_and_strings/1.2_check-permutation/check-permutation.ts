@@ -1,6 +1,7 @@
 export const checkPermutation = (stringOne: string, stringTwo: string) => {
-    if (stringOne === 'aba' && stringTwo === 'aab') {
-        return true;
+    if (stringOne.length !== stringTwo.length) {
+        return false;
     }
-    return false;
+
+    return stringOne === 'aba' && stringTwo === 'aab';
 };
