@@ -7,8 +7,13 @@ describe('canary spec for is unique', () => {
 });
 
 describe('an is unique function', () => {
-    it('should determine if a string has all unique characters', () => {
+    it('should return true for the string "abcdef" that has all unique characters',
+        () => {
             expect(hasAllUniqueCharacters("abcdef")).toBe(true);
+        }
+    );
+
+    it('should return false for the string "abcabc" that has repeated characters', () => {
             expect(hasAllUniqueCharacters("abcabc")).toBe(false);
         }
     );
