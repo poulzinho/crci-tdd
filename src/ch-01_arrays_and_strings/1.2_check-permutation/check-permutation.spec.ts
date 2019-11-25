@@ -7,7 +7,7 @@ describe('canary spec for is check permutation', () => {
 });
 
 describe('a check permutation function', () => {
-    it('should return true if one string is a permutation of another', () => {
+    it('should return true for "aba" and "aab"', () => {
         expect(checkPermutation('aba', 'aab')).toBeTruthy();
-    })
+    });
 });
