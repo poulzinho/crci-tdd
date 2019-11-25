@@ -6,7 +6,7 @@ describe('canary spec for is unique', () => {
     })
 });
 
-describe('a is unique function', () => {
+describe('an is unique function', () => {
     it('should determine if a string has all unique characters', () => {
             expect(hasAllUniqueCharacters("abcdef")).toBe(true);
             expect(hasAllUniqueCharacters("abcabc")).toBe(false);
