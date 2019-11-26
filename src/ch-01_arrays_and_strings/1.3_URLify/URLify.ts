@@ -1,1 +1,3 @@
-export const urlify = (aString: string) => '%20';
+export const urlify = (character: string) => {
+    return character === ' ' ? '%20': character;
+};

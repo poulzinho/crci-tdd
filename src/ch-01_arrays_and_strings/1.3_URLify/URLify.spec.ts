@@ -7,7 +7,11 @@ describe('canary spec for URLify', () => {
 });
 
 describe('a urlify function', () => {
-    it('should replace a space in a string with "%20"', () => {
+    it('should replace a space with "%20"', () => {
         expect(urlify(' ')).toBe('%20');
+    });
+
+    it('should return the same character if it is not a space', () => {
+        expect(urlify('a')).toBe('a');
     })
 });
