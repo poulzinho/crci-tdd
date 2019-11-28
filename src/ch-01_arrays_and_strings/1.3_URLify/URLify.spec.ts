@@ -19,7 +19,13 @@ describe('a urlify function', () => {
         expect(urlify('  ')).toBe('%20%20');
     });
 
-    it('should replace each non-space character', () => {
+    it('should return each non-space character', () => {
         expect(urlify('ab')).toBe('ab');
-    })
+    });
+
+    it('should return each non-space character and replace each space with a "%20"',
+        () => {
+            expect(urlify('a b')).toBe('a%20b');
+        }
+    );
 });
