@@ -17,5 +17,9 @@ describe('a urlify function', () => {
 
     it('should replace each space with a "%20"', () => {
         expect(urlify('  ')).toBe('%20%20');
+    });
+
+    it('should replace each non-space character', () => {
+        expect(urlify('ab')).toBe('ab');
     })
 });
