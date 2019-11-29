@@ -1,9 +1,9 @@
-import {urlify} from "./URLify";
+import { urlify } from "./URLify";
 
 describe('canary spec for URLify', () => {
     it('shows the infrastructure works', () => {
         expect(true).toBeTruthy();
-    })
+    });
 });
 
 describe('a urlify function', () => {
@@ -28,4 +28,8 @@ describe('a urlify function', () => {
             expect(urlify('a b')).toBe('a%20b');
         }
     );
+
+    it('should accept a total string length that includes space replacement with "%20"', () => {
+        expect(urlify('a b', 5)).toBe('a%20b');
+    });
 });
