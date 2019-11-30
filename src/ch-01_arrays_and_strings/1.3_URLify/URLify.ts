@@ -1,7 +1,9 @@
-export const urlify = (aString: string, finalLength?: number) => {
-    return aString.split('')
-        .reduce((acum, current) => {
-            acum += current === ' ' ? '%20' : current;
+export const urlify = (aString: string, stringLength?: number) => {
+    const cutString = stringLength ? aString.substr(0, stringLength) : aString;
+
+    return cutString.split('')
+        .reduce((acum, character) => {
+            acum += character === ' ' ? '%20' : character;
             return acum;
         }, '');
 };

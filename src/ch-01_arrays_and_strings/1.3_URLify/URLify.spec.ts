@@ -1,4 +1,4 @@
-import { urlify } from "./URLify";
+import {urlify} from "./URLify";
 
 describe('canary spec for URLify', () => {
     it('shows the infrastructure works', () => {
@@ -29,7 +29,8 @@ describe('a urlify function', () => {
         }
     );
 
-    it('should accept a total string length that includes space replacement with "%20"', () => {
-        expect(urlify('a b', 5)).toBe('a%20b');
+    it('should accept a string and its length. This string has sufficient space at the end to hold ' +
+        'space replacements with "%20"s', () => {
+        expect(urlify('Mr John Smith    ', 13)).toBe('Mr%20John%20Smith');
     });
 });
