@@ -14,4 +14,8 @@ describe('a palindrome permutation function', () => {
     it('should return true for a palindrome such as "atco cta"', () => {
         expect(isPalindromePerm('atco cta')).toBeTruthy();
     });
+
+    it('should return true for a palindrome such as "my gym"', () => {
+        expect(isPalindromePerm('my gym')).toBeTruthy();
+    });
 });
