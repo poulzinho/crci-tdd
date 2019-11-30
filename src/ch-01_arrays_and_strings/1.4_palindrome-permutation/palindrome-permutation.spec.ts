@@ -11,11 +11,11 @@ describe('a palindrome permutation function', () => {
         expect(isPalindromePerm('taco cat')).toBeTruthy();
     });
 
-    it('should return true for a palindrome such as "atco cta"', () => {
+    it('should return true for a word permuted palindrome of "taco cat" such as "atco cta"', () => {
         expect(isPalindromePerm('atco cta')).toBeTruthy();
     });
 
-    it('should return true for a palindrome such as "my gym"', () => {
-        expect(isPalindromePerm('my gym')).toBeTruthy();
+    it('should return true for a phrase permuted palindrome of "taco cat" such as "tact coa"', () => {
+        expect(isPalindromePerm('tact coa')).toBeTruthy();
     });
 });
