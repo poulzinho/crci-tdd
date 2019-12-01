@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && tsc",
-    "test": "jest --watch",
+    "test": "jest",
+    "tdd": "jest --watch",
     "coverage": "jest --coverage",
     "semantic-release": "semantic-release"
   },
