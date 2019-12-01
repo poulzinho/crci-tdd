@@ -5,11 +5,15 @@ export const oneAway = (aString: string, bString: string): boolean => {
 
     let countAway = 0;
 
-    aArray.forEach((bChar) => {
-        if (!bArray.includes(bChar)) {
-            countAway++;
-        }
-    });
+    if (aArray.length >= bArray.length) {
+        aArray.forEach((bChar) => {
+            if (!bArray.includes(bChar)) countAway++;
+        });
+    } else {
+        bArray.forEach((bChar) => {
+            if (!aArray.includes(bChar)) countAway++;
+        });
+    }
 
     return countAway === 1;
 };

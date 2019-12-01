@@ -14,4 +14,9 @@ describe('a one away function', () => {
         expect(oneAway('pale', 'ple')).toBeTruthy();
         expect(oneAway('pale', 'pal')).toBeTruthy();
     });
+
+    it('should check if a string is one added character from another string', () => {
+        expect(oneAway('pale', 'pales')).toBeTruthy();
+        expect(oneAway('pal', 'pale')).toBeTruthy();
+    });
 });
