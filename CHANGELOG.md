@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/poulzinho/crci-tdd/compare/v1.0.0...v1.1.0) (2019-12-02)
+
+
+### Features
+
+* **ch01 - string-compression:** canary test ([5fbaed8](https://github.com/poulzinho/crci-tdd/commit/5fbaed85f3f385582dfab2d2faf0b497e41e068b))
+* **ch01 - string-compression:** input aa should compress to a2 ([1bf2eb9](https://github.com/poulzinho/crci-tdd/commit/1bf2eb9d852f7688473f0143ab5940b420d68a7d))
+
 # 1.0.0 (2019-12-01)
 
 
