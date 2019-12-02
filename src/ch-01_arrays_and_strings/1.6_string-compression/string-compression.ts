@@ -15,7 +15,7 @@ export const stringCompression = (aString: string) => {
         }, []);
 
     return repetitions.reduce((result, inner) => {
-        result += `${inner[0]}${inner.length > 1 ? inner.length : ''}`;
+        result += `${inner[0]}${inner.length}`;
         return result;
     }, '');
 };
