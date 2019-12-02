@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/poulzinho/crci-tdd/compare/v1.1.0...v1.2.0) (2019-12-02)
+
+
+### Features
+
+* **ch01 - string-compression:** input ab should not compress ([497e1c2](https://github.com/poulzinho/crci-tdd/commit/497e1c2d3f29605cd22991e55be002e9bafcd542))
+
 # [1.1.0](https://github.com/poulzinho/crci-tdd/compare/v1.0.0...v1.1.0) (2019-12-02)
 
 
