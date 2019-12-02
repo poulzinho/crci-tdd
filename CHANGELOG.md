@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/poulzinho/crci-tdd/compare/v1.2.0...v1.3.0) (2019-12-02)
+
+
+### Bug Fixes
+
+* **ch01 - string-compression:** should return 1 for no repetition ([615a9bf](https://github.com/poulzinho/crci-tdd/commit/615a9bf889d852360a5da175c457aabfa18dc89c))
+
+
+### Features
+
+* **ch01 - string-compression:** input aab should compress to a2b ([9e07348](https://github.com/poulzinho/crci-tdd/commit/9e07348da8f287e9f9a2e79dd1103d446968d28e))
+
 # [1.2.0](https://github.com/poulzinho/crci-tdd/compare/v1.1.0...v1.2.0) (2019-12-02)
 
 
