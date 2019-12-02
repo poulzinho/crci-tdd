@@ -7,7 +7,11 @@ describe('canary spec for string compression', () => {
 });
 
 describe('a string compression function', () => {
-    it('should return "a2" for a "aa"', () => {
+    it('should return "a2" for "aa"', () => {
         expect(stringCompression('aa')).toBe('a2');
+    });
+
+    it('should return "ab" for "ab"', () => {
+        expect(stringCompression('ab')).toBe('ab');
     });
 });

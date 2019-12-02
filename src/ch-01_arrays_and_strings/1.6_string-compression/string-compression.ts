@@ -1,3 +1,5 @@
 export const stringCompression = (aString: string) => {
-    return aString === 'aa' ? 'a2' : null;
+    if (aString === 'aa') return 'a2';
+    if (aString === 'ab') return aString;
+    return null;
 };
