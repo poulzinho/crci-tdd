@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/poulzinho/crci-tdd/compare/v1.3.0...v1.3.1) (2019-12-03)
+
+
+### Bug Fixes
+
+* **ch01 - string-compression:** returns same string if no compression ([b6e74aa](https://github.com/poulzinho/crci-tdd/commit/b6e74aa7ead894a01681e7c8cf6ecbe841abd567))
+
 # [1.3.0](https://github.com/poulzinho/crci-tdd/compare/v1.2.0...v1.3.0) (2019-12-02)
 
 
