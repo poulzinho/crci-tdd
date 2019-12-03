@@ -14,8 +14,10 @@ export const stringCompression = (aString: string) => {
             return outer;
         }, []);
 
-    return repetitions.reduce((result, inner) => {
-        result += `${inner[0]}${inner.length}`;
-        return result;
+    const compressed = repetitions.reduce((compression, inner) => {
+        compression += `${inner[0]}${inner.length}`;
+        return compression;
     }, '');
+
+    return compressed.length < aString.length ? compressed : aString;
 };
