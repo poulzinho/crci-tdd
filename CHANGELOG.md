@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/poulzinho/crci-tdd/compare/v1.3.1...v1.4.0) (2019-12-04)
+
+
+### Features
+
+* **ch01 - rotate-matrix:** canary test ([b664489](https://github.com/poulzinho/crci-tdd/commit/b6644892cf0b89b3a828cda8044913a0a1b9a615))
+
 ## [1.3.1](https://github.com/poulzinho/crci-tdd/compare/v1.3.0...v1.3.1) (2019-12-03)
 
 
