@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/poulzinho/crci-tdd/compare/v1.5.0...v1.6.0) (2019-12-06)
+
+
+### Features
+
+* **ch01 - rotate-matrix:** 2x2 matrix 90 to the right II ([025b586](https://github.com/poulzinho/crci-tdd/commit/025b5861b211adbdeebd6fa02fd4a4702eef4e12))
+
 # [1.5.0](https://github.com/poulzinho/crci-tdd/compare/v1.4.0...v1.5.0) (2019-12-05)
 
 
