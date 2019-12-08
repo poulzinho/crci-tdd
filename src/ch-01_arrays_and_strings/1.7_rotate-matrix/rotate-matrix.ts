@@ -1,4 +1,7 @@
-export const rotateMatrix = (matrix: unknown[][]): unknown[][] => {
+export const rotateMatrix = (
+    matrix: unknown[][],
+    direction: 'right' | 'left' = "right"
+): unknown[][] => {
 
     const result = [];
 
@@ -9,7 +12,9 @@ export const rotateMatrix = (matrix: unknown[][]): unknown[][] => {
                 result[j] = [];
             }
 
-            result[j].unshift(matrix[i][j]);
+            direction === "right"
+                ? result[j].unshift(matrix[i][j])
+                : result[j].push(matrix[i][j])
         }
     }
 
