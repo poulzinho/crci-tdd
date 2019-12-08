@@ -44,4 +44,14 @@ describe('a rotate matrix function', () => {
                 .toEqual(`${[["g", "d", "a"], ["h", "e", "b"], ["i", "f", "c"]]}`);
         }
     );
+
+    it('should return [["1", "4", "7"], ["2", "5", "8"], ["3", "6", "9"]] ' +
+        'after rotating [["1", "2", "3"], ["4", "5", "6"], ["7", "8", "9"]] ' +
+        '90 degrees to the left',
+        () => {
+            const matrix = [["1", "2", "3"], ["4", "5", "6"], ["7", "8", "9"]];
+            expect(`${rotateMatrix(matrix, "left")}`)
+                .toEqual(`${[["1", "4", "7"], ["2", "5", "8"], ["3", "6", "9"]]}`);
+        }
+    );
 });
