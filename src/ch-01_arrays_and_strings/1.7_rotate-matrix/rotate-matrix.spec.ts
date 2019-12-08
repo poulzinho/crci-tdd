@@ -20,4 +20,14 @@ describe('a rotate matrix function', () => {
             expect(`${rotateMatrix(matrix)}`).toEqual(`${[["c", "a"], ["d", "b"]]}`);
         }
     );
+
+    it('should return [["g", "d", "a"], ["h", "e", "b"], ["i", "f", "c"]] ' +
+        'after rotating ["a", "b", "c"], ["d", "e", "f"], ["g", "h", "i"] ' +
+        '90 degrees to the right',
+        () => {
+            const matrix = [["a", "b", "c"], ["d", "e", "f"], ["g", "h", "i"]];
+            expect(`${rotateMatrix(matrix)}`)
+                .toEqual(`${[["g", "d", "a"], ["h", "e", "b"], ["i", "f", "c"]]}`);
+        }
+    );
 });
