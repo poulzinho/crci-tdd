@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/poulzinho/crci-tdd/compare/v1.8.0...v1.9.0) (2019-12-09)
+
+
+### Features
+
+* **ch01 - zero-matrix:** canary test ([5ed4ce9](https://github.com/poulzinho/crci-tdd/commit/5ed4ce9fd535cc9e11ac19dbe2fa3b8a6eca1e18))
+
 # [1.8.0](https://github.com/poulzinho/crci-tdd/compare/v1.7.0...v1.8.0) (2019-12-08)
 
 
